@@ -1,0 +1,1001 @@
+flow_id,source_zone,destination_zone,destination_port,port_category
+F00001,DMZ,External,5432,Other
+F00002,Internal,External,22,Other
+F00003,Internal,Internal,80,Web (80/443)
+F00004,Internal,DMZ,22,Web (80/443)
+F00005,Internal,Internal,3306,Database
+F00006,Internal,Internal,8443,Database
+F00007,Internal,DMZ,445,DNS (53)
+F00008,Internal,DMZ,9000,Mail (25/587)
+F00009,Internal,DMZ,9000,Mail (25/587)
+F00010,DMZ,Internal,22,Database
+F00011,Internal,External,445,Database
+F00012,External,External,445,Web (80/443)
+F00013,External,DMZ,443,Web (80/443)
+F00014,Internal,External,8443,Web (80/443)
+F00015,External,Internal,443,Other
+F00016,External,DMZ,22,Other
+F00017,Internal,External,3306,Other
+F00018,DMZ,External,53,Web (80/443)
+F00019,Internal,External,80,SSH (22)
+F00020,DMZ,DMZ,445,Web (80/443)
+F00021,Internal,External,5432,DNS (53)
+F00022,Internal,DMZ,80,Web (80/443)
+F00023,Internal,Internal,443,Other
+F00024,External,Internal,22,Web (80/443)
+F00025,Internal,External,443,Mail (25/587)
+F00026,Internal,DMZ,3306,Other
+F00027,Internal,DMZ,3306,Database
+F00028,Internal,External,80,Web (80/443)
+F00029,DMZ,DMZ,22,Other
+F00030,DMZ,Internal,3306,Mail (25/587)
+F00031,Internal,Internal,5432,DNS (53)
+F00032,Internal,DMZ,22,Mail (25/587)
+F00033,Internal,External,445,Other
+F00034,Internal,DMZ,25,DNS (53)
+F00035,DMZ,DMZ,443,SSH (22)
+F00036,DMZ,DMZ,5432,DNS (53)
+F00037,Internal,DMZ,5432,Web (80/443)
+F00038,Internal,External,5432,Other
+F00039,Internal,Internal,8080,Web (80/443)
+F00040,Internal,External,53,DNS (53)
+F00041,Internal,DMZ,8443,DNS (53)
+F00042,DMZ,Internal,80,Web (80/443)
+F00043,Internal,DMZ,443,DNS (53)
+F00044,External,DMZ,8080,Mail (25/587)
+F00045,Internal,DMZ,80,Web (80/443)
+F00046,Internal,External,22,Web (80/443)
+F00047,Internal,Internal,5432,Other
+F00048,Internal,Internal,5432,Other
+F00049,Internal,Internal,3306,DNS (53)
+F00050,Internal,Internal,25,Web (80/443)
+F00051,DMZ,DMZ,3306,Web (80/443)
+F00052,Internal,External,53,Web (80/443)
+F00053,DMZ,DMZ,3306,DNS (53)
+F00054,DMZ,Internal,445,Other
+F00055,Internal,Internal,8080,Database
+F00056,Internal,Internal,9000,Web (80/443)
+F00057,Internal,DMZ,53,Other
+F00058,Internal,Internal,25,DNS (53)
+F00059,DMZ,DMZ,3306,Web (80/443)
+F00060,External,External,9000,DNS (53)
+F00061,Internal,DMZ,25,Web (80/443)
+F00062,Internal,Internal,445,Other
+F00063,DMZ,Internal,443,DNS (53)
+F00064,DMZ,DMZ,80,Mail (25/587)
+F00065,Internal,DMZ,5432,DNS (53)
+F00066,DMZ,Internal,80,Other
+F00067,Internal,External,445,Mail (25/587)
+F00068,Internal,DMZ,8443,SSH (22)
+F00069,Internal,DMZ,443,Web (80/443)
+F00070,Internal,Internal,22,Other
+F00071,External,Internal,8443,SSH (22)
+F00072,Internal,Internal,80,Web (80/443)
+F00073,Internal,Internal,8080,Other
+F00074,Internal,DMZ,8080,Web (80/443)
+F00075,Internal,DMZ,445,Web (80/443)
+F00076,Internal,External,22,SSH (22)
+F00077,Internal,External,9000,Web (80/443)
+F00078,DMZ,Internal,5432,DNS (53)
+F00079,Internal,Internal,443,Web (80/443)
+F00080,DMZ,External,8443,Web (80/443)
+F00081,Internal,External,8080,Web (80/443)
+F00082,DMZ,External,8080,Web (80/443)
+F00083,DMZ,Internal,25,Other
+F00084,Internal,Internal,3306,SSH (22)
+F00085,Internal,Internal,80,SSH (22)
+F00086,External,External,22,DNS (53)
+F00087,Internal,DMZ,80,Database
+F00088,DMZ,DMZ,25,Web (80/443)
+F00089,Internal,DMZ,25,Web (80/443)
+F00090,Internal,Internal,5432,Mail (25/587)
+F00091,Internal,DMZ,445,DNS (53)
+F00092,External,Internal,443,Database
+F00093,Internal,DMZ,53,Other
+F00094,DMZ,DMZ,8080,Other
+F00095,DMZ,DMZ,3306,Web (80/443)
+F00096,Internal,Internal,3306,Web (80/443)
+F00097,Internal,External,53,Web (80/443)
+F00098,Internal,DMZ,25,Other
+F00099,Internal,Internal,25,Other
+F00100,DMZ,Internal,22,Other
+F00101,Internal,DMZ,9000,Web (80/443)
+F00102,Internal,Internal,443,Other
+F00103,DMZ,Internal,5432,SSH (22)
+F00104,Internal,Internal,9000,Other
+F00105,Internal,Internal,9000,SSH (22)
+F00106,Internal,DMZ,80,Web (80/443)
+F00107,Internal,DMZ,445,Web (80/443)
+F00108,DMZ,Internal,445,Other
+F00109,Internal,DMZ,22,DNS (53)
+F00110,Internal,Internal,8080,Web (80/443)
+F00111,Internal,Internal,3306,Web (80/443)
+F00112,Internal,Internal,443,DNS (53)
+F00113,Internal,External,3306,Other
+F00114,Internal,External,8080,Web (80/443)
+F00115,External,DMZ,22,Web (80/443)
+F00116,DMZ,Internal,5432,Other
+F00117,Internal,Internal,8443,SSH (22)
+F00118,DMZ,Internal,5432,Web (80/443)
+F00119,Internal,External,3306,Web (80/443)
+F00120,External,Internal,22,Web (80/443)
+F00121,Internal,External,8080,Web (80/443)
+F00122,Internal,DMZ,8080,Web (80/443)
+F00123,Internal,DMZ,445,Web (80/443)
+F00124,Internal,External,3306,Database
+F00125,DMZ,Internal,3306,Other
+F00126,Internal,External,25,Other
+F00127,Internal,Internal,53,DNS (53)
+F00128,Internal,External,8080,Web (80/443)
+F00129,External,DMZ,9000,Other
+F00130,DMZ,Internal,53,Database
+F00131,Internal,External,443,SSH (22)
+F00132,Internal,Internal,9000,Web (80/443)
+F00133,Internal,Internal,25,Web (80/443)
+F00134,External,External,53,SSH (22)
+F00135,DMZ,DMZ,22,SSH (22)
+F00136,Internal,External,53,Web (80/443)
+F00137,External,DMZ,3306,Other
+F00138,Internal,DMZ,80,SSH (22)
+F00139,DMZ,Internal,9000,SSH (22)
+F00140,Internal,Internal,8443,Web (80/443)
+F00141,Internal,External,8443,Database
+F00142,Internal,Internal,5432,Database
+F00143,Internal,DMZ,5432,Web (80/443)
+F00144,External,Internal,445,SSH (22)
+F00145,Internal,Internal,9000,Mail (25/587)
+F00146,DMZ,DMZ,25,Other
+F00147,DMZ,External,5432,Web (80/443)
+F00148,DMZ,External,25,Other
+F00149,External,External,80,DNS (53)
+F00150,Internal,Internal,53,Web (80/443)
+F00151,Internal,DMZ,3306,Web (80/443)
+F00152,Internal,Internal,8080,Web (80/443)
+F00153,Internal,DMZ,22,Web (80/443)
+F00154,External,Internal,3306,SSH (22)
+F00155,Internal,DMZ,53,Database
+F00156,Internal,Internal,22,Web (80/443)
+F00157,Internal,External,443,Other
+F00158,Internal,External,3306,Web (80/443)
+F00159,DMZ,External,53,SSH (22)
+F00160,Internal,Internal,443,Other
+F00161,DMZ,External,9000,Other
+F00162,DMZ,Internal,80,Mail (25/587)
+F00163,DMZ,Internal,9000,Database
+F00164,Internal,Internal,8443,Web (80/443)
+F00165,DMZ,Internal,443,Web (80/443)
+F00166,Internal,DMZ,3306,DNS (53)
+F00167,Internal,Internal,5432,Web (80/443)
+F00168,DMZ,Internal,445,Web (80/443)
+F00169,DMZ,DMZ,443,Web (80/443)
+F00170,Internal,External,80,Other
+F00171,External,DMZ,25,Other
+F00172,Internal,DMZ,22,Other
+F00173,Internal,Internal,80,Database
+F00174,External,External,8080,Web (80/443)
+F00175,Internal,Internal,53,Web (80/443)
+F00176,DMZ,Internal,25,Mail (25/587)
+F00177,Internal,Internal,80,Mail (25/587)
+F00178,DMZ,DMZ,3306,DNS (53)
+F00179,DMZ,Internal,53,DNS (53)
+F00180,DMZ,DMZ,53,SSH (22)
+F00181,Internal,Internal,25,Web (80/443)
+F00182,DMZ,DMZ,80,Web (80/443)
+F00183,Internal,DMZ,53,DNS (53)
+F00184,External,Internal,8443,Mail (25/587)
+F00185,Internal,DMZ,8443,Other
+F00186,Internal,DMZ,443,SSH (22)
+F00187,External,DMZ,22,Database
+F00188,Internal,Internal,22,Other
+F00189,Internal,DMZ,80,Web (80/443)
+F00190,DMZ,Internal,445,Mail (25/587)
+F00191,Internal,Internal,445,SSH (22)
+F00192,Internal,Internal,80,SSH (22)
+F00193,Internal,DMZ,80,Web (80/443)
+F00194,Internal,Internal,80,Other
+F00195,Internal,DMZ,445,Other
+F00196,Internal,Internal,5432,Web (80/443)
+F00197,Internal,External,22,Web (80/443)
+F00198,Internal,Internal,445,Web (80/443)
+F00199,Internal,DMZ,5432,Other
+F00200,DMZ,External,5432,SSH (22)
+F00201,DMZ,Internal,3306,Web (80/443)
+F00202,Internal,Internal,445,Other
+F00203,Internal,DMZ,5432,Web (80/443)
+F00204,External,External,443,DNS (53)
+F00205,Internal,External,3306,DNS (53)
+F00206,Internal,Internal,80,SSH (22)
+F00207,Internal,External,443,SSH (22)
+F00208,Internal,Internal,25,Web (80/443)
+F00209,DMZ,Internal,80,DNS (53)
+F00210,External,DMZ,25,Other
+F00211,External,DMZ,53,SSH (22)
+F00212,Internal,DMZ,443,Other
+F00213,Internal,External,445,SSH (22)
+F00214,Internal,Internal,9000,Database
+F00215,Internal,DMZ,22,Web (80/443)
+F00216,Internal,Internal,8443,Other
+F00217,DMZ,Internal,80,Web (80/443)
+F00218,Internal,Internal,5432,Web (80/443)
+F00219,External,External,5432,Web (80/443)
+F00220,Internal,DMZ,9000,Web (80/443)
+F00221,Internal,Internal,25,Other
+F00222,External,DMZ,9000,Other
+F00223,DMZ,External,22,Database
+F00224,Internal,External,8443,Web (80/443)
+F00225,Internal,DMZ,5432,Other
+F00226,Internal,Internal,445,Database
+F00227,Internal,DMZ,443,Web (80/443)
+F00228,Internal,External,25,SSH (22)
+F00229,Internal,External,8080,Mail (25/587)
+F00230,Internal,External,8080,Web (80/443)
+F00231,Internal,DMZ,9000,SSH (22)
+F00232,DMZ,Internal,8080,Database
+F00233,DMZ,DMZ,9000,Web (80/443)
+F00234,Internal,Internal,8443,DNS (53)
+F00235,Internal,Internal,443,SSH (22)
+F00236,Internal,DMZ,5432,Database
+F00237,DMZ,DMZ,53,Other
+F00238,DMZ,External,8080,Other
+F00239,DMZ,External,3306,Mail (25/587)
+F00240,Internal,External,443,SSH (22)
+F00241,Internal,External,3306,Mail (25/587)
+F00242,Internal,DMZ,80,SSH (22)
+F00243,Internal,Internal,3306,Web (80/443)
+F00244,DMZ,DMZ,445,Database
+F00245,Internal,Internal,80,Database
+F00246,Internal,Internal,9000,SSH (22)
+F00247,Internal,Internal,22,Other
+F00248,Internal,External,8080,Mail (25/587)
+F00249,Internal,DMZ,53,DNS (53)
+F00250,Internal,External,53,Web (80/443)
+F00251,External,External,25,Web (80/443)
+F00252,DMZ,External,25,Web (80/443)
+F00253,External,Internal,25,DNS (53)
+F00254,DMZ,External,8443,Web (80/443)
+F00255,DMZ,External,9000,Web (80/443)
+F00256,Internal,External,3306,Web (80/443)
+F00257,Internal,Internal,22,Other
+F00258,Internal,Internal,8443,Database
+F00259,Internal,External,3306,DNS (53)
+F00260,Internal,Internal,445,Web (80/443)
+F00261,Internal,Internal,9000,Web (80/443)
+F00262,External,DMZ,443,Web (80/443)
+F00263,Internal,Internal,80,DNS (53)
+F00264,Internal,Internal,8080,Web (80/443)
+F00265,Internal,External,445,Web (80/443)
+F00266,Internal,External,5432,Other
+F00267,External,External,5432,SSH (22)
+F00268,Internal,Internal,8443,Other
+F00269,External,Internal,80,Web (80/443)
+F00270,DMZ,DMZ,22,Web (80/443)
+F00271,Internal,DMZ,445,Other
+F00272,Internal,Internal,5432,DNS (53)
+F00273,Internal,External,8080,Mail (25/587)
+F00274,Internal,External,53,Other
+F00275,Internal,DMZ,8080,SSH (22)
+F00276,External,Internal,8443,Web (80/443)
+F00277,Internal,Internal,8080,SSH (22)
+F00278,DMZ,Internal,8080,Web (80/443)
+F00279,Internal,Internal,9000,Web (80/443)
+F00280,External,DMZ,5432,Web (80/443)
+F00281,Internal,DMZ,443,Other
+F00282,Internal,DMZ,443,Mail (25/587)
+F00283,Internal,External,8080,Web (80/443)
+F00284,Internal,Internal,53,Web (80/443)
+F00285,DMZ,Internal,3306,Database
+F00286,Internal,Internal,3306,Other
+F00287,Internal,Internal,5432,Web (80/443)
+F00288,Internal,DMZ,443,Web (80/443)
+F00289,Internal,External,8080,Other
+F00290,Internal,External,22,Other
+F00291,Internal,DMZ,8080,Other
+F00292,Internal,Internal,8080,Web (80/443)
+F00293,Internal,Internal,8443,Web (80/443)
+F00294,Internal,Internal,9000,DNS (53)
+F00295,External,Internal,80,Web (80/443)
+F00296,Internal,External,22,Other
+F00297,DMZ,DMZ,5432,Web (80/443)
+F00298,Internal,Internal,22,Mail (25/587)
+F00299,Internal,Internal,80,Other
+F00300,Internal,Internal,5432,Other
+F00301,Internal,External,3306,Mail (25/587)
+F00302,Internal,Internal,3306,Other
+F00303,Internal,Internal,8080,Web (80/443)
+F00304,Internal,Internal,25,Web (80/443)
+F00305,External,External,8080,Web (80/443)
+F00306,Internal,DMZ,3306,Other
+F00307,Internal,DMZ,443,Other
+F00308,Internal,Internal,445,Web (80/443)
+F00309,Internal,Internal,445,Web (80/443)
+F00310,DMZ,External,3306,DNS (53)
+F00311,Internal,Internal,80,Web (80/443)
+F00312,Internal,Internal,53,Other
+F00313,Internal,DMZ,25,Web (80/443)
+F00314,Internal,Internal,80,Other
+F00315,External,Internal,53,SSH (22)
+F00316,Internal,External,445,DNS (53)
+F00317,DMZ,DMZ,9000,Web (80/443)
+F00318,Internal,Internal,25,Other
+F00319,External,Internal,80,Mail (25/587)
+F00320,Internal,DMZ,22,DNS (53)
+F00321,Internal,Internal,9000,DNS (53)
+F00322,DMZ,Internal,5432,Other
+F00323,Internal,DMZ,53,Other
+F00324,Internal,DMZ,443,Other
+F00325,External,External,5432,Mail (25/587)
+F00326,Internal,Internal,9000,Other
+F00327,DMZ,Internal,3306,Web (80/443)
+F00328,DMZ,DMZ,53,Database
+F00329,DMZ,DMZ,5432,DNS (53)
+F00330,External,Internal,5432,SSH (22)
+F00331,Internal,DMZ,5432,Other
+F00332,Internal,Internal,22,Other
+F00333,Internal,External,5432,SSH (22)
+F00334,Internal,External,22,SSH (22)
+F00335,DMZ,DMZ,8443,Other
+F00336,Internal,External,8443,Other
+F00337,Internal,External,3306,Database
+F00338,Internal,Internal,5432,Web (80/443)
+F00339,Internal,Internal,22,Web (80/443)
+F00340,DMZ,DMZ,8443,Other
+F00341,Internal,Internal,53,Database
+F00342,Internal,Internal,53,Database
+F00343,DMZ,Internal,5432,Mail (25/587)
+F00344,External,External,9000,DNS (53)
+F00345,Internal,Internal,445,DNS (53)
+F00346,External,External,445,Other
+F00347,Internal,Internal,3306,Web (80/443)
+F00348,DMZ,Internal,80,Database
+F00349,Internal,External,3306,Database
+F00350,Internal,Internal,9000,Other
+F00351,DMZ,Internal,443,Web (80/443)
+F00352,Internal,Internal,8080,Database
+F00353,Internal,DMZ,8080,Web (80/443)
+F00354,Internal,Internal,8443,Web (80/443)
+F00355,Internal,Internal,5432,DNS (53)
+F00356,Internal,Internal,9000,Web (80/443)
+F00357,Internal,Internal,5432,Other
+F00358,Internal,Internal,9000,Other
+F00359,External,DMZ,5432,Web (80/443)
+F00360,External,Internal,8443,Other
+F00361,Internal,Internal,8443,SSH (22)
+F00362,Internal,DMZ,9000,Database
+F00363,Internal,DMZ,3306,Other
+F00364,Internal,Internal,5432,SSH (22)
+F00365,External,Internal,9000,Web (80/443)
+F00366,Internal,Internal,443,Web (80/443)
+F00367,Internal,External,25,SSH (22)
+F00368,Internal,Internal,8443,Other
+F00369,Internal,Internal,3306,SSH (22)
+F00370,DMZ,DMZ,443,DNS (53)
+F00371,DMZ,Internal,5432,Web (80/443)
+F00372,Internal,Internal,22,Other
+F00373,Internal,Internal,445,Web (80/443)
+F00374,External,DMZ,53,Database
+F00375,Internal,DMZ,80,Database
+F00376,DMZ,DMZ,9000,Web (80/443)
+F00377,External,External,3306,Web (80/443)
+F00378,Internal,Internal,25,DNS (53)
+F00379,External,External,443,Web (80/443)
+F00380,Internal,DMZ,53,Database
+F00381,DMZ,External,9000,Other
+F00382,Internal,DMZ,80,Web (80/443)
+F00383,Internal,Internal,80,SSH (22)
+F00384,Internal,Internal,80,Web (80/443)
+F00385,Internal,DMZ,25,Web (80/443)
+F00386,Internal,Internal,8080,Database
+F00387,Internal,DMZ,3306,Other
+F00388,Internal,Internal,443,Database
+F00389,Internal,Internal,443,Web (80/443)
+F00390,Internal,External,5432,SSH (22)
+F00391,External,DMZ,25,DNS (53)
+F00392,External,DMZ,9000,Other
+F00393,Internal,Internal,3306,Mail (25/587)
+F00394,Internal,DMZ,53,Other
+F00395,DMZ,External,445,Web (80/443)
+F00396,DMZ,DMZ,8443,DNS (53)
+F00397,Internal,DMZ,25,Database
+F00398,DMZ,DMZ,445,DNS (53)
+F00399,Internal,Internal,3306,Mail (25/587)
+F00400,Internal,DMZ,8080,SSH (22)
+F00401,DMZ,External,3306,Other
+F00402,DMZ,DMZ,8080,Web (80/443)
+F00403,DMZ,Internal,8080,Other
+F00404,Internal,DMZ,8443,DNS (53)
+F00405,Internal,DMZ,80,DNS (53)
+F00406,Internal,External,5432,SSH (22)
+F00407,Internal,DMZ,53,Web (80/443)
+F00408,Internal,Internal,8443,Other
+F00409,Internal,Internal,9000,Other
+F00410,Internal,DMZ,80,Other
+F00411,DMZ,Internal,3306,Other
+F00412,Internal,DMZ,8443,Mail (25/587)
+F00413,Internal,External,22,DNS (53)
+F00414,DMZ,DMZ,5432,Other
+F00415,Internal,Internal,8443,Web (80/443)
+F00416,External,DMZ,8443,Other
+F00417,Internal,DMZ,53,SSH (22)
+F00418,Internal,Internal,8080,Mail (25/587)
+F00419,External,DMZ,8080,DNS (53)
+F00420,Internal,DMZ,22,DNS (53)
+F00421,Internal,External,5432,Web (80/443)
+F00422,DMZ,Internal,3306,DNS (53)
+F00423,Internal,Internal,9000,DNS (53)
+F00424,DMZ,DMZ,22,Web (80/443)
+F00425,External,Internal,9000,Web (80/443)
+F00426,External,Internal,3306,SSH (22)
+F00427,Internal,External,80,Web (80/443)
+F00428,Internal,Internal,443,Other
+F00429,DMZ,DMZ,8080,Web (80/443)
+F00430,Internal,External,9000,SSH (22)
+F00431,Internal,DMZ,80,Web (80/443)
+F00432,Internal,DMZ,9000,SSH (22)
+F00433,Internal,DMZ,3306,SSH (22)
+F00434,Internal,Internal,53,Mail (25/587)
+F00435,Internal,Internal,3306,DNS (53)
+F00436,Internal,DMZ,8080,SSH (22)
+F00437,Internal,Internal,22,Web (80/443)
+F00438,External,Internal,22,DNS (53)
+F00439,Internal,Internal,22,DNS (53)
+F00440,Internal,External,3306,Mail (25/587)
+F00441,Internal,Internal,22,DNS (53)
+F00442,Internal,DMZ,9000,Database
+F00443,External,Internal,25,DNS (53)
+F00444,External,DMZ,22,Web (80/443)
+F00445,Internal,Internal,53,Web (80/443)
+F00446,Internal,Internal,8080,Web (80/443)
+F00447,Internal,DMZ,8443,SSH (22)
+F00448,Internal,DMZ,53,Other
+F00449,Internal,Internal,445,Database
+F00450,Internal,DMZ,8080,DNS (53)
+F00451,Internal,DMZ,8080,Web (80/443)
+F00452,Internal,Internal,25,Other
+F00453,Internal,DMZ,8443,Web (80/443)
+F00454,Internal,Internal,8443,DNS (53)
+F00455,Internal,DMZ,8080,Other
+F00456,Internal,Internal,445,DNS (53)
+F00457,Internal,DMZ,443,Web (80/443)
+F00458,Internal,Internal,8443,Web (80/443)
+F00459,Internal,DMZ,8443,Mail (25/587)
+F00460,Internal,DMZ,445,Web (80/443)
+F00461,DMZ,External,8080,Mail (25/587)
+F00462,External,DMZ,443,DNS (53)
+F00463,Internal,External,8080,Web (80/443)
+F00464,Internal,Internal,22,Web (80/443)
+F00465,DMZ,Internal,8443,Other
+F00466,DMZ,Internal,445,DNS (53)
+F00467,Internal,DMZ,3306,Database
+F00468,Internal,DMZ,53,DNS (53)
+F00469,Internal,External,445,Web (80/443)
+F00470,Internal,DMZ,22,DNS (53)
+F00471,Internal,DMZ,8443,SSH (22)
+F00472,Internal,Internal,8080,DNS (53)
+F00473,Internal,Internal,443,Other
+F00474,Internal,External,8443,Other
+F00475,Internal,Internal,8080,Other
+F00476,DMZ,Internal,25,SSH (22)
+F00477,Internal,External,22,SSH (22)
+F00478,Internal,External,53,Mail (25/587)
+F00479,Internal,DMZ,22,Web (80/443)
+F00480,DMZ,Internal,3306,Other
+F00481,Internal,External,445,Other
+F00482,Internal,Internal,445,Web (80/443)
+F00483,Internal,DMZ,22,Other
+F00484,DMZ,Internal,9000,Other
+F00485,DMZ,External,9000,DNS (53)
+F00486,External,External,3306,Other
+F00487,Internal,DMZ,22,Web (80/443)
+F00488,Internal,Internal,443,Web (80/443)
+F00489,Internal,DMZ,5432,Web (80/443)
+F00490,Internal,Internal,8080,SSH (22)
+F00491,DMZ,External,53,Web (80/443)
+F00492,Internal,Internal,8443,Other
+F00493,Internal,Internal,9000,Web (80/443)
+F00494,External,DMZ,445,Web (80/443)
+F00495,Internal,DMZ,443,Mail (25/587)
+F00496,Internal,External,445,Web (80/443)
+F00497,Internal,Internal,22,Database
+F00498,External,External,445,DNS (53)
+F00499,External,Internal,22,Other
+F00500,Internal,Internal,22,Database
+F00501,External,DMZ,3306,Web (80/443)
+F00502,External,Internal,445,Web (80/443)
+F00503,DMZ,DMZ,9000,Web (80/443)
+F00504,External,Internal,445,Other
+F00505,Internal,Internal,9000,Database
+F00506,DMZ,DMZ,8080,DNS (53)
+F00507,Internal,Internal,80,Web (80/443)
+F00508,DMZ,DMZ,9000,Other
+F00509,Internal,DMZ,445,Web (80/443)
+F00510,DMZ,Internal,3306,Database
+F00511,External,External,25,Database
+F00512,Internal,Internal,53,Web (80/443)
+F00513,External,Internal,445,SSH (22)
+F00514,Internal,Internal,53,Web (80/443)
+F00515,Internal,External,3306,DNS (53)
+F00516,Internal,DMZ,22,Other
+F00517,DMZ,DMZ,53,Database
+F00518,Internal,External,5432,Other
+F00519,Internal,Internal,3306,SSH (22)
+F00520,Internal,External,9000,Web (80/443)
+F00521,Internal,DMZ,8443,Database
+F00522,Internal,External,8080,SSH (22)
+F00523,External,External,22,Web (80/443)
+F00524,DMZ,External,3306,DNS (53)
+F00525,DMZ,Internal,53,Mail (25/587)
+F00526,Internal,External,53,Database
+F00527,External,External,53,Web (80/443)
+F00528,Internal,DMZ,445,Other
+F00529,Internal,Internal,25,DNS (53)
+F00530,Internal,External,445,Web (80/443)
+F00531,Internal,Internal,25,Web (80/443)
+F00532,Internal,DMZ,445,Other
+F00533,DMZ,DMZ,3306,Web (80/443)
+F00534,Internal,Internal,25,SSH (22)
+F00535,Internal,DMZ,25,Web (80/443)
+F00536,DMZ,Internal,8080,Database
+F00537,External,DMZ,8080,Other
+F00538,Internal,External,53,Web (80/443)
+F00539,Internal,Internal,8443,Other
+F00540,Internal,DMZ,53,Web (80/443)
+F00541,Internal,Internal,9000,Web (80/443)
+F00542,Internal,External,25,SSH (22)
+F00543,Internal,External,5432,Database
+F00544,DMZ,Internal,22,Web (80/443)
+F00545,Internal,DMZ,53,SSH (22)
+F00546,Internal,DMZ,443,Web (80/443)
+F00547,Internal,DMZ,22,SSH (22)
+F00548,External,DMZ,445,Mail (25/587)
+F00549,Internal,DMZ,53,Other
+F00550,Internal,DMZ,25,DNS (53)
+F00551,Internal,Internal,9000,Mail (25/587)
+F00552,DMZ,Internal,9000,SSH (22)
+F00553,External,External,9000,Web (80/443)
+F00554,Internal,Internal,25,Web (80/443)
+F00555,Internal,DMZ,443,Other
+F00556,Internal,Internal,80,Web (80/443)
+F00557,Internal,External,80,Other
+F00558,External,DMZ,443,Web (80/443)
+F00559,Internal,Internal,445,Other
+F00560,Internal,Internal,445,Web (80/443)
+F00561,DMZ,DMZ,80,Other
+F00562,DMZ,External,9000,Database
+F00563,Internal,DMZ,9000,Web (80/443)
+F00564,Internal,DMZ,80,Database
+F00565,Internal,DMZ,53,Mail (25/587)
+F00566,DMZ,Internal,445,Web (80/443)
+F00567,DMZ,DMZ,443,Web (80/443)
+F00568,DMZ,Internal,9000,Database
+F00569,DMZ,Internal,443,Database
+F00570,Internal,DMZ,22,Web (80/443)
+F00571,Internal,External,25,Other
+F00572,Internal,External,22,Web (80/443)
+F00573,External,External,443,Web (80/443)
+F00574,Internal,DMZ,80,SSH (22)
+F00575,Internal,Internal,8443,Web (80/443)
+F00576,Internal,DMZ,8443,Web (80/443)
+F00577,DMZ,External,25,SSH (22)
+F00578,DMZ,DMZ,9000,Web (80/443)
+F00579,DMZ,DMZ,3306,Web (80/443)
+F00580,Internal,DMZ,80,Database
+F00581,External,External,443,SSH (22)
+F00582,DMZ,External,443,Other
+F00583,DMZ,External,25,SSH (22)
+F00584,DMZ,DMZ,8443,SSH (22)
+F00585,External,Internal,22,Web (80/443)
+F00586,External,DMZ,22,Other
+F00587,Internal,Internal,80,Web (80/443)
+F00588,Internal,External,25,Web (80/443)
+F00589,Internal,DMZ,22,Other
+F00590,DMZ,DMZ,443,Database
+F00591,DMZ,Internal,443,Mail (25/587)
+F00592,Internal,DMZ,25,Web (80/443)
+F00593,Internal,DMZ,8080,Web (80/443)
+F00594,External,Internal,8443,SSH (22)
+F00595,External,External,5432,Database
+F00596,External,Internal,445,DNS (53)
+F00597,Internal,DMZ,9000,Web (80/443)
+F00598,DMZ,Internal,80,Web (80/443)
+F00599,DMZ,DMZ,443,SSH (22)
+F00600,Internal,DMZ,22,Database
+F00601,Internal,External,5432,Web (80/443)
+F00602,External,Internal,25,Web (80/443)
+F00603,Internal,External,5432,Web (80/443)
+F00604,Internal,DMZ,8080,Web (80/443)
+F00605,DMZ,Internal,53,SSH (22)
+F00606,DMZ,Internal,3306,Web (80/443)
+F00607,Internal,Internal,80,Mail (25/587)
+F00608,DMZ,External,443,Database
+F00609,Internal,Internal,445,Other
+F00610,DMZ,DMZ,53,Other
+F00611,Internal,DMZ,8080,Web (80/443)
+F00612,DMZ,External,443,Web (80/443)
+F00613,DMZ,DMZ,445,Web (80/443)
+F00614,Internal,External,8080,Database
+F00615,Internal,Internal,53,Web (80/443)
+F00616,DMZ,External,443,Web (80/443)
+F00617,Internal,Internal,9000,Web (80/443)
+F00618,Internal,Internal,443,Web (80/443)
+F00619,Internal,External,25,Database
+F00620,External,Internal,80,Mail (25/587)
+F00621,Internal,Internal,9000,SSH (22)
+F00622,Internal,DMZ,8080,Other
+F00623,External,Internal,8080,Web (80/443)
+F00624,Internal,Internal,53,Web (80/443)
+F00625,Internal,DMZ,8443,DNS (53)
+F00626,Internal,External,443,Mail (25/587)
+F00627,Internal,External,8080,SSH (22)
+F00628,Internal,Internal,8443,Web (80/443)
+F00629,DMZ,DMZ,53,Other
+F00630,Internal,External,9000,Web (80/443)
+F00631,DMZ,Internal,3306,Web (80/443)
+F00632,Internal,Internal,8080,Mail (25/587)
+F00633,Internal,Internal,8080,Other
+F00634,Internal,DMZ,25,Mail (25/587)
+F00635,Internal,Internal,8080,Other
+F00636,DMZ,DMZ,53,Web (80/443)
+F00637,Internal,External,53,Mail (25/587)
+F00638,Internal,Internal,25,Other
+F00639,Internal,DMZ,25,SSH (22)
+F00640,DMZ,Internal,9000,DNS (53)
+F00641,Internal,Internal,80,Other
+F00642,DMZ,External,443,Web (80/443)
+F00643,Internal,DMZ,445,DNS (53)
+F00644,Internal,External,5432,Other
+F00645,DMZ,DMZ,3306,Other
+F00646,Internal,Internal,445,Other
+F00647,Internal,DMZ,8443,Other
+F00648,External,Internal,445,Web (80/443)
+F00649,Internal,External,8080,Other
+F00650,Internal,DMZ,9000,DNS (53)
+F00651,Internal,Internal,5432,Mail (25/587)
+F00652,Internal,DMZ,22,DNS (53)
+F00653,DMZ,DMZ,53,Other
+F00654,Internal,External,3306,SSH (22)
+F00655,External,Internal,445,Other
+F00656,DMZ,Internal,80,Web (80/443)
+F00657,External,Internal,80,Web (80/443)
+F00658,DMZ,Internal,22,DNS (53)
+F00659,External,DMZ,53,Web (80/443)
+F00660,Internal,Internal,8080,Database
+F00661,Internal,Internal,22,Web (80/443)
+F00662,Internal,DMZ,8443,SSH (22)
+F00663,DMZ,Internal,80,Web (80/443)
+F00664,Internal,External,8080,Web (80/443)
+F00665,DMZ,DMZ,53,Mail (25/587)
+F00666,Internal,Internal,8443,Web (80/443)
+F00667,DMZ,DMZ,3306,Web (80/443)
+F00668,Internal,Internal,8443,Web (80/443)
+F00669,External,External,22,Web (80/443)
+F00670,Internal,DMZ,8080,Mail (25/587)
+F00671,Internal,DMZ,53,Web (80/443)
+F00672,DMZ,External,80,DNS (53)
+F00673,DMZ,External,22,Database
+F00674,DMZ,External,9000,SSH (22)
+F00675,External,Internal,5432,SSH (22)
+F00676,Internal,Internal,9000,Web (80/443)
+F00677,DMZ,DMZ,3306,Other
+F00678,Internal,DMZ,25,DNS (53)
+F00679,Internal,DMZ,80,Web (80/443)
+F00680,Internal,External,443,Other
+F00681,Internal,Internal,25,Mail (25/587)
+F00682,Internal,Internal,9000,Mail (25/587)
+F00683,DMZ,DMZ,9000,Other
+F00684,Internal,Internal,3306,Web (80/443)
+F00685,External,DMZ,3306,Other
+F00686,Internal,DMZ,5432,Mail (25/587)
+F00687,Internal,DMZ,5432,Web (80/443)
+F00688,DMZ,DMZ,22,Web (80/443)
+F00689,Internal,DMZ,445,Web (80/443)
+F00690,Internal,DMZ,8080,Other
+F00691,DMZ,Internal,8080,Web (80/443)
+F00692,Internal,DMZ,3306,Web (80/443)
+F00693,Internal,DMZ,8443,Database
+F00694,DMZ,Internal,3306,Database
+F00695,Internal,DMZ,443,Web (80/443)
+F00696,DMZ,External,443,Other
+F00697,DMZ,Internal,5432,SSH (22)
+F00698,Internal,DMZ,8443,Other
+F00699,Internal,External,53,Web (80/443)
+F00700,Internal,External,80,Web (80/443)
+F00701,DMZ,Internal,5432,Mail (25/587)
+F00702,Internal,DMZ,8080,Web (80/443)
+F00703,External,External,443,SSH (22)
+F00704,Internal,DMZ,5432,Web (80/443)
+F00705,DMZ,Internal,22,Database
+F00706,Internal,Internal,80,Other
+F00707,Internal,External,9000,Other
+F00708,Internal,DMZ,3306,Other
+F00709,Internal,Internal,8443,Other
+F00710,External,Internal,53,DNS (53)
+F00711,Internal,External,80,DNS (53)
+F00712,Internal,DMZ,9000,Other
+F00713,Internal,External,9000,Other
+F00714,Internal,DMZ,8443,Other
+F00715,External,External,80,Database
+F00716,External,External,8080,Web (80/443)
+F00717,External,Internal,445,Other
+F00718,Internal,DMZ,8443,Other
+F00719,Internal,Internal,8443,Mail (25/587)
+F00720,DMZ,External,443,Other
+F00721,Internal,Internal,80,SSH (22)
+F00722,DMZ,DMZ,9000,Other
+F00723,Internal,External,443,Web (80/443)
+F00724,Internal,Internal,443,Other
+F00725,External,External,5432,Web (80/443)
+F00726,Internal,Internal,9000,Web (80/443)
+F00727,External,DMZ,25,Web (80/443)
+F00728,Internal,DMZ,9000,DNS (53)
+F00729,Internal,Internal,443,Web (80/443)
+F00730,Internal,DMZ,22,Other
+F00731,Internal,External,80,SSH (22)
+F00732,Internal,Internal,445,Other
+F00733,Internal,DMZ,5432,Web (80/443)
+F00734,DMZ,External,3306,Web (80/443)
+F00735,External,External,25,Database
+F00736,Internal,Internal,445,Database
+F00737,Internal,External,53,SSH (22)
+F00738,Internal,Internal,53,Other
+F00739,DMZ,DMZ,5432,Other
+F00740,Internal,DMZ,8080,SSH (22)
+F00741,Internal,External,25,Other
+F00742,Internal,Internal,3306,Database
+F00743,Internal,Internal,443,Mail (25/587)
+F00744,Internal,External,80,DNS (53)
+F00745,Internal,Internal,5432,Web (80/443)
+F00746,External,DMZ,53,Web (80/443)
+F00747,Internal,DMZ,8080,Database
+F00748,Internal,DMZ,443,Database
+F00749,Internal,Internal,25,Web (80/443)
+F00750,Internal,Internal,8080,Mail (25/587)
+F00751,Internal,External,8443,Web (80/443)
+F00752,Internal,DMZ,3306,Web (80/443)
+F00753,Internal,Internal,5432,Other
+F00754,DMZ,Internal,25,DNS (53)
+F00755,Internal,Internal,80,Web (80/443)
+F00756,External,External,80,SSH (22)
+F00757,Internal,Internal,8080,DNS (53)
+F00758,Internal,Internal,80,Database
+F00759,External,DMZ,8080,Other
+F00760,DMZ,Internal,80,SSH (22)
+F00761,Internal,Internal,3306,SSH (22)
+F00762,DMZ,External,53,DNS (53)
+F00763,Internal,DMZ,3306,SSH (22)
+F00764,Internal,Internal,22,Web (80/443)
+F00765,DMZ,DMZ,8080,Web (80/443)
+F00766,DMZ,Internal,22,Other
+F00767,Internal,Internal,9000,DNS (53)
+F00768,Internal,DMZ,8443,SSH (22)
+F00769,Internal,DMZ,3306,Web (80/443)
+F00770,Internal,DMZ,9000,Other
+F00771,External,External,8080,Web (80/443)
+F00772,Internal,Internal,25,DNS (53)
+F00773,Internal,External,8080,Other
+F00774,Internal,DMZ,443,DNS (53)
+F00775,Internal,Internal,8443,Other
+F00776,Internal,External,8443,Web (80/443)
+F00777,External,Internal,9000,Database
+F00778,DMZ,DMZ,443,Other
+F00779,DMZ,DMZ,53,SSH (22)
+F00780,Internal,Internal,25,Database
+F00781,Internal,External,25,DNS (53)
+F00782,Internal,Internal,9000,Database
+F00783,Internal,External,3306,Other
+F00784,Internal,Internal,80,Database
+F00785,DMZ,Internal,443,Other
+F00786,External,Internal,25,SSH (22)
+F00787,Internal,External,3306,SSH (22)
+F00788,Internal,Internal,443,Web (80/443)
+F00789,DMZ,External,8080,Database
+F00790,Internal,Internal,22,Other
+F00791,External,DMZ,9000,Mail (25/587)
+F00792,Internal,Internal,22,Web (80/443)
+F00793,Internal,Internal,443,SSH (22)
+F00794,Internal,External,80,Database
+F00795,External,DMZ,5432,Other
+F00796,Internal,DMZ,5432,Web (80/443)
+F00797,DMZ,DMZ,53,Web (80/443)
+F00798,Internal,DMZ,445,DNS (53)
+F00799,Internal,DMZ,445,Web (80/443)
+F00800,External,External,445,Other
+F00801,Internal,DMZ,22,DNS (53)
+F00802,Internal,DMZ,25,SSH (22)
+F00803,Internal,DMZ,445,Web (80/443)
+F00804,External,DMZ,53,DNS (53)
+F00805,Internal,DMZ,445,Other
+F00806,Internal,DMZ,25,SSH (22)
+F00807,External,DMZ,8080,Web (80/443)
+F00808,DMZ,External,53,Web (80/443)
+F00809,External,External,5432,Other
+F00810,DMZ,External,8443,Other
+F00811,DMZ,External,80,Web (80/443)
+F00812,Internal,DMZ,25,Mail (25/587)
+F00813,Internal,DMZ,22,Web (80/443)
+F00814,DMZ,Internal,80,SSH (22)
+F00815,DMZ,DMZ,25,Web (80/443)
+F00816,External,Internal,8443,Other
+F00817,Internal,Internal,9000,Other
+F00818,Internal,External,9000,Web (80/443)
+F00819,Internal,External,9000,DNS (53)
+F00820,Internal,DMZ,3306,Web (80/443)
+F00821,Internal,Internal,80,Web (80/443)
+F00822,DMZ,DMZ,443,Web (80/443)
+F00823,Internal,DMZ,53,Web (80/443)
+F00824,Internal,External,8443,Other
+F00825,Internal,External,443,Web (80/443)
+F00826,DMZ,Internal,443,Other
+F00827,External,Internal,5432,Web (80/443)
+F00828,Internal,Internal,443,SSH (22)
+F00829,Internal,Internal,80,DNS (53)
+F00830,Internal,Internal,53,Other
+F00831,Internal,Internal,22,Web (80/443)
+F00832,Internal,Internal,22,Web (80/443)
+F00833,External,Internal,443,Database
+F00834,External,Internal,9000,Database
+F00835,Internal,DMZ,53,Database
+F00836,Internal,Internal,5432,Web (80/443)
+F00837,Internal,External,80,Web (80/443)
+F00838,Internal,Internal,80,Other
+F00839,Internal,Internal,25,Mail (25/587)
+F00840,DMZ,Internal,3306,Mail (25/587)
+F00841,Internal,DMZ,5432,Web (80/443)
+F00842,DMZ,Internal,80,Web (80/443)
+F00843,Internal,DMZ,445,Other
+F00844,DMZ,Internal,445,Database
+F00845,DMZ,External,53,Web (80/443)
+F00846,Internal,Internal,5432,Other
+F00847,Internal,Internal,3306,SSH (22)
+F00848,DMZ,External,22,Web (80/443)
+F00849,Internal,Internal,445,DNS (53)
+F00850,Internal,Internal,443,Database
+F00851,Internal,External,8080,DNS (53)
+F00852,Internal,Internal,80,SSH (22)
+F00853,DMZ,Internal,9000,Database
+F00854,Internal,DMZ,3306,Web (80/443)
+F00855,Internal,Internal,25,Other
+F00856,Internal,External,443,Web (80/443)
+F00857,DMZ,DMZ,8443,DNS (53)
+F00858,DMZ,DMZ,53,Database
+F00859,Internal,Internal,5432,Mail (25/587)
+F00860,Internal,DMZ,8080,DNS (53)
+F00861,Internal,DMZ,5432,Mail (25/587)
+F00862,Internal,Internal,22,Other
+F00863,Internal,External,443,Other
+F00864,Internal,DMZ,80,Other
+F00865,Internal,External,80,Web (80/443)
+F00866,DMZ,Internal,8443,DNS (53)
+F00867,Internal,Internal,22,SSH (22)
+F00868,DMZ,DMZ,445,Web (80/443)
+F00869,Internal,External,9000,Database
+F00870,Internal,Internal,8443,Web (80/443)
+F00871,Internal,Internal,3306,Web (80/443)
+F00872,DMZ,External,9000,Web (80/443)
+F00873,DMZ,Internal,443,Web (80/443)
+F00874,Internal,Internal,3306,Web (80/443)
+F00875,DMZ,DMZ,445,Mail (25/587)
+F00876,Internal,Internal,22,SSH (22)
+F00877,Internal,Internal,22,Web (80/443)
+F00878,Internal,Internal,8443,Web (80/443)
+F00879,Internal,External,25,Other
+F00880,Internal,Internal,80,Web (80/443)
+F00881,External,DMZ,3306,SSH (22)
+F00882,Internal,External,3306,SSH (22)
+F00883,Internal,DMZ,445,SSH (22)
+F00884,Internal,DMZ,9000,Other
+F00885,Internal,DMZ,8080,Mail (25/587)
+F00886,Internal,Internal,9000,Other
+F00887,External,DMZ,5432,Other
+F00888,DMZ,External,9000,Web (80/443)
+F00889,Internal,External,3306,Web (80/443)
+F00890,DMZ,DMZ,445,Web (80/443)
+F00891,Internal,Internal,8080,DNS (53)
+F00892,Internal,External,8443,SSH (22)
+F00893,Internal,Internal,22,Web (80/443)
+F00894,Internal,External,9000,Web (80/443)
+F00895,Internal,Internal,5432,DNS (53)
+F00896,DMZ,DMZ,8443,Mail (25/587)
+F00897,Internal,External,5432,Database
+F00898,External,DMZ,9000,Other
+F00899,DMZ,Internal,80,Web (80/443)
+F00900,DMZ,External,53,DNS (53)
+F00901,Internal,Internal,53,Other
+F00902,External,Internal,53,Database
+F00903,Internal,DMZ,53,SSH (22)
+F00904,Internal,DMZ,443,SSH (22)
+F00905,Internal,DMZ,53,Web (80/443)
+F00906,External,Internal,25,Other
+F00907,Internal,DMZ,445,Mail (25/587)
+F00908,Internal,External,8080,SSH (22)
+F00909,DMZ,Internal,25,SSH (22)
+F00910,Internal,DMZ,445,DNS (53)
+F00911,External,DMZ,5432,Web (80/443)
+F00912,Internal,External,5432,Database
+F00913,Internal,DMZ,25,SSH (22)
+F00914,Internal,External,8080,Web (80/443)
+F00915,Internal,Internal,22,DNS (53)
+F00916,Internal,Internal,53,Other
+F00917,Internal,External,80,DNS (53)
+F00918,Internal,External,8443,DNS (53)
+F00919,DMZ,DMZ,53,Mail (25/587)
+F00920,External,DMZ,8080,Other
+F00921,Internal,DMZ,9000,Mail (25/587)
+F00922,Internal,Internal,9000,Other
+F00923,Internal,External,80,Web (80/443)
+F00924,External,External,25,Other
+F00925,DMZ,DMZ,53,Other
+F00926,Internal,Internal,8080,SSH (22)
+F00927,Internal,Internal,53,Mail (25/587)
+F00928,External,Internal,5432,Web (80/443)
+F00929,External,DMZ,443,DNS (53)
+F00930,Internal,DMZ,8080,Web (80/443)
+F00931,DMZ,Internal,3306,Web (80/443)
+F00932,Internal,DMZ,3306,Other
+F00933,Internal,External,8080,Web (80/443)
+F00934,DMZ,Internal,9000,SSH (22)
+F00935,Internal,DMZ,443,Web (80/443)
+F00936,Internal,DMZ,445,DNS (53)
+F00937,External,Internal,3306,DNS (53)
+F00938,DMZ,DMZ,8443,Web (80/443)
+F00939,Internal,DMZ,445,Mail (25/587)
+F00940,Internal,Internal,443,Other
+F00941,DMZ,Internal,8443,DNS (53)
+F00942,Internal,External,9000,Other
+F00943,External,Internal,3306,Mail (25/587)
+F00944,DMZ,DMZ,25,Mail (25/587)
+F00945,Internal,DMZ,80,Web (80/443)
+F00946,Internal,External,445,Web (80/443)
+F00947,DMZ,DMZ,5432,Other
+F00948,External,External,5432,SSH (22)
+F00949,Internal,DMZ,8443,DNS (53)
+F00950,Internal,DMZ,22,Other
+F00951,DMZ,Internal,445,Web (80/443)
+F00952,Internal,Internal,5432,Other
+F00953,Internal,Internal,9000,Web (80/443)
+F00954,External,Internal,25,Other
+F00955,DMZ,DMZ,8443,Web (80/443)
+F00956,External,Internal,22,Web (80/443)
+F00957,DMZ,Internal,53,Database
+F00958,Internal,Internal,8443,Web (80/443)
+F00959,External,External,8080,Other
+F00960,Internal,DMZ,9000,Mail (25/587)
+F00961,Internal,External,3306,Web (80/443)
+F00962,External,DMZ,3306,Web (80/443)
+F00963,DMZ,External,445,Other
+F00964,External,External,445,Mail (25/587)
+F00965,Internal,Internal,445,Other
+F00966,External,External,80,Web (80/443)
+F00967,Internal,Internal,8443,Other
+F00968,DMZ,DMZ,80,SSH (22)
+F00969,External,External,3306,Mail (25/587)
+F00970,Internal,Internal,5432,DNS (53)
+F00971,DMZ,DMZ,445,Web (80/443)
+F00972,DMZ,Internal,3306,Other
+F00973,DMZ,Internal,22,Other
+F00974,External,Internal,80,DNS (53)
+F00975,DMZ,Internal,443,Other
+F00976,Internal,Internal,443,Web (80/443)
+F00977,Internal,DMZ,8443,Web (80/443)
+F00978,External,DMZ,8443,Web (80/443)
+F00979,External,DMZ,5432,DNS (53)
+F00980,External,DMZ,80,Web (80/443)
+F00981,Internal,Internal,22,DNS (53)
+F00982,Internal,Internal,8080,Web (80/443)
+F00983,DMZ,External,8443,Database
+F00984,DMZ,External,445,Other
+F00985,Internal,DMZ,8443,Database
+F00986,Internal,Internal,9000,Web (80/443)
+F00987,Internal,External,3306,Database
+F00988,Internal,External,53,Web (80/443)
+F00989,Internal,Internal,22,Database
+F00990,Internal,Internal,8080,SSH (22)
+F00991,Internal,Internal,3306,DNS (53)
+F00992,External,DMZ,25,Web (80/443)
+F00993,DMZ,External,22,Other
+F00994,External,DMZ,9000,Other
+F00995,Internal,Internal,80,Mail (25/587)
+F00996,Internal,DMZ,80,Other
+F00997,Internal,External,3306,Other
+F00998,Internal,DMZ,443,Web (80/443)
+F00999,Internal,External,9000,Database
+F01000,DMZ,Internal,5432,Web (80/443)
